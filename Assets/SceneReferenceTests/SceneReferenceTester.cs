@@ -31,7 +31,6 @@ public class SceneReferenceTester : MonoBehaviour
             SceneManager.LoadSceneAsync(Scene.ScenePath);
         }
 
-
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
             SceneManager.LoadSceneAsync(ScenesScriptableObject.TargetScene.ScenePath);
         }
